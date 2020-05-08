@@ -288,7 +288,7 @@
 })(jQuery);
 
 /* dropdown*/
-if (window.matchMedia("(min-width: 576px)").matches) {
+if (window.matchMedia("(min-width: 991.98px)").matches) {
 $('.dropdown').hover(
 	function() {
 		$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn();

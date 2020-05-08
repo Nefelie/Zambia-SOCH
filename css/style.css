@@ -9266,7 +9266,7 @@ background-color: transparent;
 }
 
 
-.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover 
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus
 {
 color: rgb(0, 0, 0);
 text-decoration: none;
@@ -9274,7 +9274,7 @@ background-color: transparent;
 } 
 
 @media (max-width: 991.98px) {
-  .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover 
+  .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus
 {
 color: rgb(255, 0, 0);
 text-decoration: none;
@@ -9307,3 +9307,15 @@ background-color: transparent;
 
 }
 
+//*<style>*/
+.red { 
+ color : #f00; text-decoration : none;
+}
+
+.green { 
+ color : #0f0; text-decoration : none;
+}
+
+.blue { 
+ color : #00f; text-decoration : none;
+}
