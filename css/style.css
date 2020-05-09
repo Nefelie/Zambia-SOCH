@@ -9307,15 +9307,7 @@ background-color: transparent;
 
 }
 
-//*<style>*/
+/*<style>*/
 .red { 
- color : #f00; text-decoration : none;
-}
-
-.green { 
- color : #0f0; text-decoration : none;
-}
-
-.blue { 
- color : #00f; text-decoration : none;
+ color : #f00 !important; text-decoration : none;
 }
