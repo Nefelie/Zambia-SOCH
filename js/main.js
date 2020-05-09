@@ -288,7 +288,7 @@
 })(jQuery);
 
 /* dropdown*/
-if (window.matchMedia("(min-width: 576px)").matches) {
+if (window.matchMedia("(min-width: 991.98px)").matches) {
 $('.dropdown').hover(
 	function() {
 		$(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn();
@@ -307,12 +307,3 @@ $('.dropdown-menu').hover(
 	}
 );
 }
-
-//test for touch events support and if not supported, attach .no-touch class to the HTML tag.
-
-/*
-if (!("ontouchstart" in document.documentElement)) {
-	document.documentElement.className += " no-touch";
-	}
-
-*/
