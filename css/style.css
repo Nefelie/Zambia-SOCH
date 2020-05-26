@@ -9307,7 +9307,6 @@ a.button3{
   text-align:center;
   transition: all 0.2s;
   position: absolute;
-  left: 50%;
   }
   a.button3:hover{
   background-color:#000000;
@@ -9319,3 +9318,4 @@ a.button3{
   margin:0.2em auto;
   }
   }
+  
