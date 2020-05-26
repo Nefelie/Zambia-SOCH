@@ -9306,6 +9306,8 @@ a.button3{
   background-color:#f14e4e;
   text-align:center;
   transition: all 0.2s;
+  position: absolute;
+  left: 50%;
   }
   a.button3:hover{
   background-color:#000000;
