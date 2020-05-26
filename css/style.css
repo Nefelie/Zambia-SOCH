@@ -9177,7 +9177,7 @@ textarea.form-control {
     /* Create four equal columns that sits next to each other */
     .column {
       flex: 25%;
-      max-width: 33.3%;
+      max-width: 16.6%;
       padding: 0 4px;
     }
     
@@ -9185,7 +9185,7 @@ textarea.form-control {
       margin-top: 8px;
       vertical-align: middle;
       width: 100%;
-      filter: grayscale(0.1) brightness(0.8);
+      filter: grayscale(0.1) brightness(0.9);
       border-radius: 5px;
       cursor: pointer;
       transition: 0.3s linear;
