@@ -9177,7 +9177,7 @@ textarea.form-control {
     /* Create four equal columns that sits next to each other */
     .column {
       flex: 25%;
-      max-width: 33.3%;
+      max-width: 16.6%;
       padding: 0 4px;
     }
     
@@ -9185,7 +9185,7 @@ textarea.form-control {
       margin-top: 8px;
       vertical-align: middle;
       width: 100%;
-      filter: grayscale(0.1) brightness(0.8);
+      filter: grayscale(0.1) brightness(0.9);
       border-radius: 5px;
       cursor: pointer;
       transition: 0.3s linear;
@@ -9307,7 +9307,6 @@ a.button3{
   text-align:center;
   transition: all 0.2s;
   position: absolute;
-  left: 50%;
   }
   a.button3:hover{
   background-color:#000000;
@@ -9319,3 +9318,51 @@ a.button3{
   margin:0.2em auto;
   }
   }
+  
+
+  /*GALLERY FILTER*/
+  html,body{
+    margin: 0;
+    padding: 0;
+}
+
+ul.filters{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 30px 0;
+}
+
+ul.filters > li{
+    list-style: none;
+    display: inline-block;
+}
+
+ul.filters > li > a{
+    display: block;
+    color: #434e5e;
+    text-decoration: none;
+    
+    border-radius: 2em;
+    padding: 0.5em 1.9em;
+    margin: 0 0.3em 0.3em 0;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+ul.filters > li > a:hover{
+    background-color: #e6e9ed;
+}
+
+ul.filters > li.active > a{
+    color: #fff;
+    background-color: #f14e4e;
+}
+
+
+/*VIDEO*/
+.video-fluid {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
