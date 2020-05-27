@@ -9319,3 +9319,50 @@ a.button3{
   }
   }
   
+
+  /*GALLERY FILTER*/
+  html,body{
+    margin: 0;
+    padding: 0;
+}
+
+ul.filters{
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 30px 0;
+}
+
+ul.filters > li{
+    list-style: none;
+    display: inline-block;
+}
+
+ul.filters > li > a{
+    display: block;
+    color: #434e5e;
+    text-decoration: none;
+    
+    border-radius: 2em;
+    padding: 0.5em 1.9em;
+    margin: 0 0.3em 0.3em 0;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+ul.filters > li > a:hover{
+    background-color: #e6e9ed;
+}
+
+ul.filters > li.active > a{
+    color: #fff;
+    background-color: #f14e4e;
+}
+
+
+/*VIDEO*/
+.video-fluid {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
