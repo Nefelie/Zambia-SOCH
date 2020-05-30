@@ -12,6 +12,7 @@
         layoutMode: 'fitRows'
     });
 
+
     $('ul.filters > li').on('click', function(e){
 
         e.preventDefault();
@@ -23,7 +24,9 @@
 
         $projects.isotope({filter: filter});
 
+        
     });
 
-
+   
 })(jQuery);
+
