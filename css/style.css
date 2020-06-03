@@ -9385,3 +9385,27 @@ ul.filters > li.active > a{
   height: auto;
   border-radius: 5px;
 }
+
+/*topbutton*/
+
+html{
+  scroll-behavior: smooth;
+}
+
+.gotopbtn{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background: #e9e8e8;
+  bottom: 30px;
+  right: 40px;
+  border-radius: 40px;
+
+
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  color: black;
+  font-size: 22px;
+
+}
