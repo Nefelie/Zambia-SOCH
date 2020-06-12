@@ -1,17 +1,18 @@
+$( document ).ready(function() {    
+    $( 'ul.filters > li' ).trigger( "click" );
+ });
+
 (function(){
 
     'use strict';
 
-
     var $projects = $('.projects');
-
 
     $projects.isotope({
         filter: '.photo',
         itemSelector: '.item',
         layoutMode: 'fitRows'
     });
-
 
     $('ul.filters > li').on('click', function(e){
 
@@ -29,4 +30,3 @@
 
    
 })(jQuery);
-
