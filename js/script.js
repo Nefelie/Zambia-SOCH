@@ -11,7 +11,7 @@
     $projects.isotope({
         itemSelector: '.item',
         filter: '.photo',
-        // layoutMode: 'fitRows'
+        layoutMode: 'fitRows'
     });
 
 
