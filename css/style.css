@@ -9355,6 +9355,7 @@ ul.filters{
 ul.filters > li{
     list-style: none;
     display: inline-block;
+    
 }
 
 ul.filters > li > a{
